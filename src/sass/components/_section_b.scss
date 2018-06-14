@@ -1,0 +1,121 @@
+.wrapper_b {
+    min-width: 320px;
+    color: #000000;
+}
+.container_b {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+.subcontainer_b_primary {
+    display: flex;
+    flex-direction: column;
+}
+.subcontainer_b_primary>img {
+    order: 2;
+    margin-bottom: 35px;
+}
+.text_b_primary {
+    order: 1;
+    margin-bottom: 15px;
+    font-size: 9px;
+    line-height: 14px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+}
+.text_b_secondary {
+    order: 3;
+    margin-bottom: 10px;
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text_b_secondary::before {
+    content: ' ';
+    margin-right: 10px;
+    font-size: 20px;
+    position: absolute;
+    border-bottom: 2px solid #333333;
+    left: -22px;
+    top: 4px;
+    width: 15px;
+
+}
+.title_b {
+    order: 4;
+    width: 170px;
+    margin-left: auto;
+    margin: auto;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.title_b::before {
+    content: '[ ';
+}
+.title_b>span {
+    color: #ffffff;
+    background-color: #000000;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.text_b_last {
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.list_b {
+    list-style: none;
+    width: 250px;
+    margin-left: 25px;
+    padding: 0;
+}
+.list-item_b {
+    position: relative;
+    font-size: 9px;
+    line-height: 13px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.list-item_b::before {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    vertical-align: middle;
+    background-color: #000;
+    margin-right: 20px;
+    position: absolute;
+    top: 4px;
+    left: -15px;
+}
+.list-item_b>span {
+    font-weight: 900;
+}
+.list-item_b:last-of-type {
+    color: #ff6b08;
+    text-align: center;
+    font-weight: 600;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.list-item_b:last-of-type::before {
+    display: none;
+}
