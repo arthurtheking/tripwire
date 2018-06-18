@@ -1,0 +1,118 @@
+.wrapper_j {
+    min-width: 320px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+.container_j {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 55px;
+}
+.title_j {
+    display: none;
+}
+.container_j>img {
+    margin-bottom: 15px;
+}
+.subtitle_j {
+    display: none;
+}
+.info_j {
+    font-size: 7px;
+    line-height: 11px;
+    font-weight: 900;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.list_j {
+    padding-left: 20px;
+    margin-left: 53px;
+    width: 205px;
+    font-size: 9px;
+    line-height: 13px;
+    margin-bottom: 0px;
+    counter-reset: number;
+    list-style: none;
+    margin-bottom: 35px;
+}
+.list-item_j {
+    margin-bottom: 20px;
+    position: relative;
+}
+.list-item_j:last-of-type {
+    margin-bottom: 0px;
+}
+.list-item_j::before {
+    counter-increment: number;
+    content: "[ 00" counter(number) " ]";
+    position: absolute;
+    top: 12px;
+    left: -30px;
+    display: inline-block;
+    transform: rotateZ(-90deg);
+    font-size: 8px;
+    line-height: 12px;
+    color: #ffffff;
+    background-color: #ff6600;
+    font-weight: 700;
+    padding: 0px 3px 0px 3px;
+}
+.list-item_j::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: -22px;
+    background-color: #ffffff;
+    width: 5px;
+    height: 30px;
+}
+.list-item_j>h6 {
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.text_j {
+    font-size: 9px;
+    line-height: 11px;
+    font-weight: 700;
+    color: #ff6600;
+    width: 220px;
+    margin-left: 45px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.text_j::before {
+    content: '/';
+    font-size: 26px;
+    line-height: 30px;
+    position: absolute;
+    left: -20px;
+    top: -5px;
+    color: #000000;
+    font-weight: 300;
+}
+.link_buy_j {
+    width: 145px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 8px;
+    line-height: 35px;
+    height: 35px;
+    background-color: #ff6b08;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 300ms;
+  }
+  .link_buy_j:hover {
+    color: #fff;
+    background-color: #11a8b6;
+    text-decoration: none;
+  }

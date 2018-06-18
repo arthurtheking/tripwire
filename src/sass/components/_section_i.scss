@@ -8,6 +8,10 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 35px;
+    background: url('../img/stap.png'), url('../img/4.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 115px, 50px;
+    background-position-y: 15px, 15px;
 }
 .title_i {
     font-size: 12px;
@@ -53,7 +57,7 @@
 }
 .list-item_i {
     position: relative;
-    width: 160px;
+    width: 165px;
     margin-left: 46px;
 }
 .list-item_i:nth-last-of-type(n+2) {
