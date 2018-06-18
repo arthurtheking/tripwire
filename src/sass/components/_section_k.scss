@@ -1,0 +1,170 @@
+.wrapper_k {
+    min-width: 320px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+.container_k {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+.title_k {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 900;
+    width: 250px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.subtitle_k {
+    font-size: 9px;
+    line-height: 13px;
+    text-transform: uppercase;
+    width: 165px;
+    margin-left: 55px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.text_primary_k {
+    font-size: 9px;
+    line-height: 13px;
+    width: 175px;
+    margin-left: 55px;
+    margin-bottom: 25px;
+}
+.container_k>img {
+    margin-bottom: 40px;
+}
+.text_secondary_k {
+    font-size: 9px;
+    line-height: 13px;
+    font-weight: 900;
+    width: 190px;
+    margin-left: 75px;
+    position: relative;
+    margin-bottom: 60px;
+}
+.text_secondary_k::before {
+    content: '';
+    width: 15px;
+    position: absolute;
+    top: 6px;
+    left:-20px;
+    border-bottom: 2px solid #000;
+}
+.list_k {
+    width: 200px;
+    padding: 0;
+    list-style: none;
+    margin-left: 50px;
+}
+.list-item_k>h6 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.list-item_k {
+    margin-bottom: 30px;
+    position: relative;
+}
+.list-item_k>span {
+    font-weight: 900;
+}
+.list-item_k:nth-of-type(n+2) {
+    width: 166px;
+}
+.list-item_k:nth-of-type(n+3)>p {
+    width: 150px;
+}
+.list-item_k:last-of-type {
+    margin-bottom: 0px;
+}
+.first_k {
+    margin-bottom: 60px;
+    position: relative;
+}
+.first_k::before {
+    content: '[ Go for IT ]';
+    position: absolute;
+    display: inline-block;
+    top: -35px;
+    left: 0px;
+    font-size: 8px;
+    line-height: 12px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0px 2px;
+}
+.first_k::after {
+    content: url(../img/unicef-320.png);
+    display: inline-block;
+    position: absolute;
+    left: 140px;
+    top: -35px;
+}
+.second_k {
+    position: relative;
+    background: url('../img/01_320.png');
+    background-position-x: 110px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+.second_k::before {
+    content: '[ Это признано IT-сообществом ]';
+    position: absolute;
+    display: inline-block;
+    top: -35px;
+    left: 0px;
+    font-size: 8px;
+    line-height: 12px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 0px 2px;
+}
+.second_k::after {
+    content: url('../img/second_k-320.png');
+    display: inline-block;
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    left: 100%;
+}
+.third_k {
+    position: relative;
+    background: url('../img/02_320.png');
+    background-position-x: 110px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+.third_k::after {
+    content: url('../img/third_k-320.png');
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 157px;
+}
+.forth_k {
+    position: relative;
+    background: url('../img/03_320.png');
+    background-position-x: 110px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+.second_k>p {
+    margin-bottom: 0px;
+}
+.third_k>p {
+    margin-bottom: 0px;
+}
+.forth_k>p {
+    margin-bottom: 0px;
+}
+.forth_k::after {
+    content: url(../img/third_k-320.png);
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 157px;
+}
