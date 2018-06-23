@@ -1,0 +1,204 @@
+.wrapper_q {
+    min-width: 320px;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+.container_q {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+.list_q {
+    counter-reset: heading;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+}
+.list-item_q {
+    position: relative;
+    width: 170px;
+    margin-left: 85px;
+    font-size: 9px;
+    line-height: 15px;
+}
+.list-item_q:nth-last-of-type(n+2) {
+    margin-bottom: 20px;
+}
+.list-item_q>h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.list-item_q:first-of-type>h6 {
+    margin-bottom: 10px;
+}
+.list-item_q:last-of-type>h6 {
+    margin-bottom: 10px;
+}
+.list-item_q::before {
+    counter-increment: heading;
+    content: "0" counter(heading) ". ";
+    position: absolute;
+    top: 0px;
+    left: -37px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.list-item_q>h6::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    left: -43px;
+    top: 0px;
+    background-color: #ffffff;
+}
+.list-item_q>h6::after {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    left: -24px;
+    top: 22px;
+    background-color: #16ebfe;
+}
+.list-item_q:last-of-type {
+    margin-bottom: 30px;
+}
+.list-item_q>span {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0px 3px 0px 1px;
+}
+.title_q {
+    width: 179px;
+    margin-left: 57px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1px 3px 0px 1px;
+    font-weight: 900;
+}
+.subtitle_q {
+    font-size: 9px;
+    line-height: 13px;
+    font-weight: 900;
+    width: 150px;
+    margin-left: 95px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.subtitle_q::before {
+    content: '';
+    width: 15px;
+    position: absolute;
+    top: 6px;
+    left:-25px;
+    border-bottom: 2px solid #000;
+}
+.article_q {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 5px 14px 0 rgba(0,0,0,.16);
+}
+.text_q_label {
+    margin-top: 50px;
+    margin-left: 45px;
+    margin-bottom: 0px;
+    font-size: 6px;
+    line-height: 8px;
+    font-weight: 700;
+}
+.number_q_label {
+    margin-left: 45px;
+    margin-bottom: 0px;
+    font-size: 6px;
+    line-height: 8px;
+    font-weight: 700;
+}
+.email_q_label {
+    margin-left: 45px;
+    margin-bottom: 0px;
+    font-size: 6px;
+    line-height: 8px;
+    font-weight: 700;
+}
+.name_q {
+    margin-left: 45px;
+    margin-bottom: 15px;
+    width: 160px;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 6px;
+    line-height: 12px;
+    text-transform: none;
+    margin-bottom: 15px;
+}
+.name_q:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.number_q {
+    margin-left: 45px;
+    margin-bottom: 15px;
+    width: 160px;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 6px;
+    line-height: 12px;
+    text-transform: none;
+    margin-bottom: 15px;
+}
+.number_q:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.email_q {
+    margin-left: 45px;
+    margin-bottom: 20px;
+    width: 160px;
+    border: none;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 6px;
+    line-height: 12px;
+    text-transform: none;
+    margin-bottom: 23px;
+}
+.email_q:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.link_buy_q {
+    width: 115px;
+    margin-left: 45px;
+    margin-bottom: 45px;
+    font-size: 5px;
+    line-height: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    height: 25px;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ff6b08;
+    transition-duration: 0.3s;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.2);
+}
+.link_buy_q:hover {
+    color: #fff;
+    background-color: #11a8b6;
+    text-decoration: none;
+}
